@@ -48,30 +48,14 @@ python app.py
 
 ## Model Description
 The Ridge Regression model is used to predict the Fire Weather Index (FWI) based on various meteorological features, including:
-
-Temperature
-
-Humidity
-
-Wind Speed
-
-Rainfall
-
-Other relevant features related to forest fire risk
-
+* Temperature
+* Humidity
+* Wind Speed
+* Rainfall
+* Other relevant features related to forest fire risk
 The model was trained using historical data from Alegerinc forest fires and uses regularization to avoid overfitting and improve the generalization of predictions.
 
 ## Acknowledgements
 * Data used from Alegerinc Forest Fires dataset.
 
 * The Ridge Regression algorithm was implemented using scikit-learn.
-
-
-### How to Use:
-
-1. **Save this text as `README.md`** in the root of your project folder.
-2. If you have other assets like `LICENSE` or additional documentation, make sure to link them properly (as mentioned under `License` and `Acknowledgements`).
-
-This markdown file includes everything: an overview of the app, setup instructions, usage guide, and details about the model used (Ridge Regression).
-
-Let me know if you need anything else or further customization!
