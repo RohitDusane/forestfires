@@ -55,6 +55,9 @@ The Ridge Regression model is used to predict the Fire Weather Index (FWI) based
 * Other relevant features related to forest fire risk
 The model was trained using historical data from Alegerinc forest fires and uses regularization to avoid overfitting and improve the generalization of predictions.
 
+## Deployment - AWS Elastic Beanstalk
+EBS is a PaaS tool where we can create an app and cprovide conitnus deleivery through sourec (github) and creat aand monitor and check the application deploed ina unix machine. 
+
 ## Acknowledgements
 * Data used from Alegerinc Forest Fires dataset.
 
