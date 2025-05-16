@@ -3,7 +3,8 @@ from flask import Flask, request, render_template
 import pandas as pd
 
 # Initialize Flask app
-app = Flask(__name__)
+application = Flask(__name__)
+app=application
 
 # Load the trained model and scaler
 ridge_model = pickle.load(open('models/ridge.pkl', 'rb'))
